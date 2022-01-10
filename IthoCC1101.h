@@ -35,7 +35,7 @@ const uint8_t ducoMessage1LeaveCommandBytes[] = {0,170,173,85,82,205,84};
 //message 2 commands
 const uint8_t ithoMessage2PowerCommandBytes[] =  {6,89,150,170,165,101,90,150,85,149,101,90,102,85,150};
 const uint8_t ithoMessage2HighCommandBytes[] =   {6,89,150,170,165,101,90,150,85,149,101,89,102,85,150};
-const uint8_t ithoMessage2MediumCommandBytes[] = {6,89,150,170,169,101,90,102,85,149,101,89,150,85,154}; //{6,89,150,170,165,101,90,150,85,149,101,90,150,85,150};
+const uint8_t ithoMessage2MediumCommandBytes[] = {6,89,150,170,165,101,90,150,85,149,101,89,150,85,154}; //{6,89,150,170,165,101,90,150,85,149,101,90,150,85,150};
 const uint8_t ithoMessage2LowCommandBytes[] =    {6,89,150,170,165,101,90,150,85,149,101,89,150,85,150}; //{6,89,150,170,165,101,90,150,85,149,101,89,150,85,150}
 const uint8_t ithoMessage2StandByCommandBytes[] ={6,89,150,170,165,101,90,150,85,149,101,90,86,85,150};
 const uint8_t ithoMessage2Timer1CommandBytes[] = {6,89,150,170,169,101,90,150,85,149,101,89,86,85,153};		//10 minutes full speed
