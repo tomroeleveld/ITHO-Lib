@@ -16,8 +16,8 @@ const uint8_t ithoPaTableReceive[8] = {0x6F, 0x26, 0x2E, 0x7F, 0x8A, 0x84, 0xCA,
 
 //rft message 1 commands
 const uint8_t ithoMessage1HighCommandBytes[] = {1,84,213,85,50,203,52};
-const uint8_t ithoMessage1LowCommandBytes[] = {1,84,213,85,74,213,52};
-const uint8_t ithoMessage1MediumCommandBytes[] = {1,84,213,85,83,83,84};	
+const uint8_t ithoMessage1MediumCommandBytes[] = {1,84,213,85,74,213,52};
+const uint8_t ithoMessage1LowCommandBytes[] = {1,84,213,85,83,83,84};	
 const uint8_t ithoMessage1Timer1CommandBytes[] = {1,83,83,84,204,202,180};	
 const uint8_t ithoMessage1Timer2CommandBytes[] = {1,83,83,83,53,52,180};		
 const uint8_t ithoMessage1Timer3CommandBytes[] = {1,83,83,82,173,82,180};	
@@ -33,11 +33,11 @@ const uint8_t ducoMessage1JoinCommandBytes[] = {0,170,171,85,85,44,180};
 const uint8_t ducoMessage1LeaveCommandBytes[] = {0,170,173,85,82,205,84};
 
 //message 2 commands
-const uint8_t ithoMessage2PowerCommandBytes[] =  {6,89,150,170,165,101,90,150,85,149,101,90,102,85,150};
-const uint8_t ithoMessage2HighCommandBytes[] =   {6,89,150,170,165,101,90,150,85,149,101,89,102,85,150};
-const uint8_t ithoMessage2MediumCommandBytes[] = {6,89,150,170,165,101,90,150,85,149,101,89,150,85,150}; //{6,89,150,170,165,101,90,150,85,149,101,90,150,85,150};
-const uint8_t ithoMessage2LowCommandBytes[] =    {6,89,150,170,165,101,90,150,85,149,101,90,150,85,150}; //{6,89,150,170,165,101,90,150,85,149,101,89,150,85,150}
-const uint8_t ithoMessage2StandByCommandBytes[] ={6,89,150,170,165,101,90,150,85,149,101,90,86,85,150};
+const uint8_t ithoMessage2PowerCommandBytes[] = {6,89,150,170,165,101,90,150,85,149,101,90,102,85,150};
+const uint8_t ithoMessage2HighCommandBytes[] = {6,89,150,170,165,101,90,150,85,149,101,89,102,85,150};
+const uint8_t ithoMessage2MediumCommandBytes[] = {6,89,150,170,165,101,90,150,85,149,101,90,150,85,150};
+const uint8_t ithoMessage2LowCommandBytes[] = {6,89,150,170,165,101,90,150,85,149,101,89,150,85,150};
+const uint8_t ithoMessage2StandByCommandBytes[] = {6,89,150,170,165,101,90,150,85,149,101,90,86,85,150};
 const uint8_t ithoMessage2Timer1CommandBytes[] = {6,89,150,170,169,101,90,150,85,149,101,89,86,85,153};		//10 minutes full speed
 const uint8_t ithoMessage2Timer2CommandBytes[] = {6,89,150,170,169,101,90,150,85,149,101,89,86,149,150};	//20 minutes full speed
 const uint8_t ithoMessage2Timer3CommandBytes[] = {6,89,150,170,169,101,90,150,85,149,101,89,86,149,154};	//30 minutes full speed
